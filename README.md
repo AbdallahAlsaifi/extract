@@ -15,57 +15,57 @@ Extract whatever you need with **Extract** and save your time
 ## Table of Contents
 
 - [Methods](#methods)
-    - [phoneNumbers(text)](#phonenumbers)
-    - [urls(text)](#urls)
-    - [allDates(text)](#alldates)
+    - [phoneNumbers](#phonenumbers)
+    - [urls](#urls)
+    - [allDates](#alldates)
     - [specificWords(text, word)](#specificwords)
-    - [addresses(text)](#addresses)
+    - [addresses](#addresses)
     - [numericValues(text, includeDecimals)](#numericvalues)
     - [hashtagsMentions(text, includeMentions)](#hashtagsmentions)
     - [filePaths(text, separator)](#filepaths)
     - [specialCharacters(text, characterSet)](#specialcharacters)
     - [keywordsPhrases(text, keyword, caseSensitive)](#keywordsphrases)
     - [sentencesParagraphs(text, separator)](#sentencesparagraphs)
-    - [acronymsAbbreviations(text)](#acronymsabbreviations)
-    - [ssns(text)](#ssns)
-    - [iPAddresses(text)](#ipaddresses)
-    - [creditCardNumbers(text)](#creditcardnumbers)
+    - [acronymsAbbreviations](#acronymsabbreviations)
+    - [ssns](#ssns)
+    - [iPAddresses](#ipaddresses)
+    - [creditCardNumbers](#creditcardnumbers)
     - [codeSnippets(text, language)](#codesnippets)
-    - [unitsOfMeasurement(text)](#unitsofmeasurement)
-    - [productCodesIDs(text)](#productcodesids)
-    - [sentimentKeywords(text)](#sentimentkeywords)
-    - [time(text)](#time)
-    - [companyNames(text)](#companynames)
-    - [jobTitles(text)](#jobtitles)
-    - [vins(text)](#vins)
-    - [twitterHandles(text)](#twitterhandles)
-    - [youTubeVideoIDs(text)](#youtubevideoids)
-    - [isbns(text)](#isbns)
-    - [htmlTagsAttributes(text)](#htmltagsattributes)
-    - [hexColorCodes(text)](#hexcolorcodes)
-    - [statisticalData(text)](#statisticaldata)
+    - [unitsOfMeasurement](#unitsofmeasurement)
+    - [productCodesIDs](#productcodesids)
+    - [sentimentKeywords](#sentimentkeywords)
+    - [time](#time)
+    - [companyNames](#companynames)
+    - [jobTitles](#jobtitles)
+    - [vins](#vins)
+    - [twitterHandles](#twitterhandles)
+    - [youTubeVideoIDs](#youtubevideoids)
+    - [isbns](#isbns)
+    - [htmlTagsAttributes](#htmltagsattributes)
+    - [hexColorCodes](#hexcolorcodes)
+    - [statisticalData](#statisticaldata)
     - [twiiterAndFacebookPostIDs(text, platform)](#twiiterandfacebookpostids)
-    - [employeeIDs(text)](#employeeids)
-    - [bankAccountNumbers(text)](#bankaccountnumbers)
-    - [apiEndpoints(text)](#apiendpoints)
-    - [osPaths(text)](#ospaths)
+    - [employeeIDs](#employeeids)
+    - [bankAccountNumbers](#bankaccountnumbers)
+    - [apiEndpoints](#apiendpoints)
+    - [osPaths](#ospaths)
     - [twitterAndFacebookPostContent(text, platform)](#twitterandfacebookpostcontent)
-    - [softwareVersionNumbers(text)](#softwareversionnumbers)
-    - [ordinalNumbers(text)](#ordinalnumbers)
-    - [metaTags(text)](#metatags)
-    - [stockTickerSymbols(text)](#stocktickersymbols)
-    - [hashValues(text)](#hashvalues)
-    - [chemicalCompoundNames(text)](#chemicalcompoundnames)
-    - [mimeTypes(text)](#mimetypes)
-    - [httpStatusCodes(text)](#httpstatuscodes)
-    - [coordinates(text)](#coordinates)
-    - [extractProgrammingKeywords(text, language)](#extractprogrammingkeywords)
+    - [softwareVersionNumbers](#softwareversionnumbers)
+    - [ordinalNumbers](#ordinalnumbers)
+    - [metaTags](#metatags)
+    - [stockTickerSymbols](#stocktickersymbols)
+    - [hashValues](#hashvalues)
+    - [chemicalCompoundNames](#chemicalcompoundnames)
+    - [mimeTypes](#mimetypes)
+    - [httpStatusCodes](#httpstatuscodes)
+    - [coordinates](#coordinates)
+    - [extractProgrammingKeywords](#extractprogrammingkeywords)
 
 ---
 
 ## Methods
 
-### phoneNumbers(text)
+### phoneNumbers
 
 The `phoneNumbers` method within the `Extract` class is responsible for extracting phone numbers from the provided text using regular expressions.
 
@@ -102,7 +102,7 @@ The `phoneNumbers` method within the `Extract` class is responsible for extracti
 - **Considerations:**
     - Ensure the input text is appropriately formatted and contains the desired phone numbers for accurate extraction.
 
-### urls(text)
+### urls
 
 The `urls` method within the `Extract` class is designed to extract URLs from the provided text using regular expressions.
 
@@ -139,7 +139,7 @@ The `urls` method within the `Extract` class is designed to extract URLs from th
 - **Considerations:**
     - Ensure the input text contains well-formed URLs for accurate extraction.
 
-### allDates(text)
+### allDates
 
 The `allDates` method within the `Extract` class is designed to extract various date formats from the provided text using multiple regular expression patterns.
 
@@ -176,7 +176,7 @@ The `allDates` method within the `Extract` class is designed to extract various 
 - **Considerations:**
     - Ensure the input text contains diverse date formats for accurate extraction.
 
-### specificWords(text, word)
+### specificWords
 
 The `specificWords` method within the `Extract` class is designed to extract occurrences of a specific word from the provided text using a case-insensitive regular expression pattern.
 
@@ -216,7 +216,7 @@ The `specificWords` method within the `Extract` class is designed to extract occ
 - **Considerations:**
     - Ensure the input `text` contains instances of the specific `word` for accurate extraction.
 
-### addresses(text)
+### addresses
 
 The `addresses` method within the `Extract` class aims to extract addresses from the provided text using a regular expression pattern.
 
@@ -254,7 +254,7 @@ The `addresses` method within the `Extract` class aims to extract addresses from
     - Ensure the input `text` contains addresses conforming to the patterns recognized by the regular expression for accurate extraction.
 
 
-### numericValues(text, includeDecimals)
+### numericValues
 
 The `numericValues` method within the `Extract` class is designed to extract numeric values from the provided text, allowing an option to include decimals based on the specified flag.
 
@@ -295,7 +295,7 @@ The `numericValues` method within the `Extract` class is designed to extract num
 - **Considerations:**
     - Ensure the input `text` contains numeric values that conform to the expected patterns for accurate extraction.
 
-### hashtagsMentions(text, includeMentions)
+### hashtagsMentions
 
 The `hashtagsMentions` method within the `Extract` class is designed to extract hashtags and optionally mentions from the provided text.
 
@@ -336,7 +336,7 @@ The `hashtagsMentions` method within the `Extract` class is designed to extract 
 - **Considerations:**
     - Ensure the input `text` contains hashtags and/or mentions conforming to expected patterns for accurate extraction.
 
-### filePaths(text, separator)
+### filePaths
 
 The `filePaths` method in the `Extract` class is designed to extract file paths from the provided text based on a specified separator.
 
@@ -375,7 +375,7 @@ The `filePaths` method in the `Extract` class is designed to extract file paths 
 - **Considerations:**
     - Ensure the input `text` contains file paths conforming to the expected structure and uses the provided `separator` for accurate extraction.
 
-### specialCharacters(text, {String characterSet = r'[^\w\s]'})
+### specialCharacters
 
 The `specialCharacters` method in the `Extract` class aims to extract special characters from the provided text based on a specified character set.
 
@@ -414,7 +414,7 @@ The `specialCharacters` method in the `Extract` class aims to extract special ch
 - **Considerations:**
     - Ensure the input `text` contains the characters that align with the specified `characterSet` for accurate extraction.
 
-### keywordsPhrases(text, keyword, {bool caseSensitive = false})
+### keywordsPhrases
 
 The `keywordsPhrases` method in the `Extract` class is designed to extract occurrences of a specific `keyword` or phrase from the provided text.
 
@@ -458,7 +458,7 @@ The `keywordsPhrases` method in the `Extract` class is designed to extract occur
     - Ensure the `text` and `keyword` parameters are accurately provided to extract the desired occurrences.
 
 
-### sentencesParagraphs(text, {String separator = '.'})
+### sentencesParagraphs
 
 The `sentencesParagraphs` method within the `Extract` class is designed to extract sentences or paragraphs from the given text.
 
@@ -498,7 +498,7 @@ The `sentencesParagraphs` method within the `Extract` class is designed to extra
     - Ensure the `text` input is correctly provided for accurate sentence or paragraph extraction.
     - Adjust the `separator` parameter to suit the text's structure and the desired splitting criteria.
 
-### acronymsAbbreviations(text)
+### acronymsAbbreviations
 
 The `acronymsAbbreviations` method within the `Extract` class is used to extract acronyms or abbreviations from the provided text.
 
@@ -537,7 +537,7 @@ The `acronymsAbbreviations` method within the `Extract` class is used to extract
     - The method may return false positives or miss certain acronyms based on the pattern matching criteria.
     - Review the identified acronyms or abbreviations to ensure they meet the desired extraction criteria.
 
-### ssns(text)
+### ssns
 
 The `ssns` method within the `Extract` class is designed to extract Social Security Numbers (SSNs) from the provided text.
 
@@ -576,7 +576,7 @@ The `ssns` method within the `Extract` class is designed to extract Social Secur
     - This method may return false positives if the pattern is present in non-SSN content.
     - Review the extracted numbers to ensure they indeed represent valid SSNs.
 
-### iPAddresses(text)
+### iPAddresses
 
 The `iPAddresses` method, part of the `Extract` class, is utilized to extract IP addresses from a given text.
 
@@ -615,7 +615,7 @@ The `iPAddresses` method, part of the `Extract` class, is utilized to extract IP
     - This method may return false positives if the pattern is present in non-IP content.
     - Review the extracted addresses to confirm they are valid IPs.
 
-### creditCardNumbers(text)
+### creditCardNumbers
 
 The `creditCardNumbers` method, part of the `Extract` class, is designed to extract potential credit card numbers from a given text.
 
@@ -654,7 +654,7 @@ The `creditCardNumbers` method, part of the `Extract` class, is designed to extr
 - **Considerations:**
     - The identified sequences may or may not be valid credit card numbers; further validation might be necessary for confirmation.
 
-### codeSnippets(text, {String language = ''})
+### codeSnippets
 
 The `codeSnippets` method, within the `Extract` class, is created to extract code snippets from a given text, optionally filtered by a specific programming `language`.
 
@@ -694,7 +694,7 @@ The `codeSnippets` method, within the `Extract` class, is created to extract cod
 - **Considerations:**
     - Ensure the accuracy of the language tag provided to accurately filter code snippets if required.
 
-### unitsOfMeasurement(text)
+### unitsOfMeasurement
 
 The `unitsOfMeasurement` method, within the `Extract` class, is designed to identify and extract various units of measurement from a given text.
 
@@ -734,7 +734,7 @@ The `unitsOfMeasurement` method, within the `Extract` class, is designed to iden
     - The method assumes units are represented in a format where the numerical value is followed by the unit identifier without any special characters separating them.
 
 
-### productCodesIDs(text)
+### productCodesIDs
 
 The `productCodesIDs` method, part of the `Extract` class, is designed to identify and extract product codes or IDs from a given text.
 
@@ -774,7 +774,7 @@ The `productCodesIDs` method, part of the `Extract` class, is designed to identi
     - The method captures sequences consisting of uppercase letters and numbers without spaces or special characters.
 
 
-### sentimentKeywords(text)
+### sentimentKeywords
 
 The `sentimentKeywords` method, part of the `Extract` class, identifies specific sentiment-related keywords from a given text.
 
@@ -814,7 +814,7 @@ The `sentimentKeywords` method, part of the `Extract` class, identifies specific
     - The method provides a quick way to identify basic sentiment-related terms but may not cover the entire spectrum of sentiment analysis.
 
 
-### time(text)
+### time
 
 The `time` method, part of the `Extract` class, extracts time-related patterns from the provided text.
 
@@ -854,7 +854,7 @@ The `time` method, part of the `Extract` class, extracts time-related patterns f
     - The method offers a way to quickly extract time information but may require modifications for broader or more precise time pattern recognition.
 
 
-### companyNames(text)
+### companyNames
 
 The `companyNames` method, a part of the class or utility, aims to extract potential company names from the provided text.
 
@@ -894,7 +894,7 @@ The `companyNames` method, a part of the class or utility, aims to extract poten
     - This method provides a starting point for extracting potential company names but may not cover all variations or formats used in real-world text.
 
 
-### jobTitles(text)
+### jobTitles
 
 The `jobTitles` method, part of the class or utility, is designed to extract potential job titles from the provided text.
 
@@ -934,7 +934,7 @@ The `jobTitles` method, part of the class or utility, is designed to extract pot
     - This method serves as a starting point for extracting potential job titles but might not cover all variations or formats used in real-world text.
 
 
-### vins(text)
+### vins
 
 The `vins` method, part of the class or utility, is intended to extract Vehicle Identification Numbers (VINs) from the provided text.
 
@@ -974,7 +974,7 @@ The `vins` method, part of the class or utility, is intended to extract Vehicle 
     - This method provides a basic extraction of potential VINs based on their typical alphanumeric structure.
 
 
-### twitterHandles(text)
+### twitterHandles
 
 The `twitterHandles` method, a part of the class or utility, aims to extract potential Twitter handles from the provided text.
 
@@ -1013,7 +1013,7 @@ The `twitterHandles` method, a part of the class or utility, aims to extract pot
     - Twitter handles might have variations and special characters, which might require adjustments to the regular expression for better accuracy.
     - This method provides a basic extraction of potential Twitter handles based on their typical structure.
 
-### youTubeVideoIDs(text)
+### youTubeVideoIDs
 
 The `youTubeVideoIDs` method, a part of the class or utility, is aimed at extracting potential YouTube video IDs from the provided text.
 
@@ -1053,7 +1053,7 @@ The `youTubeVideoIDs` method, a part of the class or utility, is aimed at extrac
     - This method provides a basic extraction of potential YouTube video IDs based on their typical structure.
 
 
-### isbns(text)
+### isbns
 
 The `isbns` method, part of the class or utility, is intended to extract potential International Standard Book Numbers (ISBNs) from the provided text.
 
@@ -1093,7 +1093,7 @@ The `isbns` method, part of the class or utility, is intended to extract potenti
     - This method provides a basic extraction of potential ISBNs based on their typical structure but might not cover all variations used in real-world text.
 
 
-### htmlTagsAttributes(text)
+### htmlTagsAttributes
 
 The `htmlTagsAttributes` method, part of the class or utility, aims to extract HTML tags with their attributes and content from the provided text.
 
@@ -1132,7 +1132,7 @@ The `htmlTagsAttributes` method, part of the class or utility, aims to extract H
     - Complex HTML structures or non-standard formats might not be accurately captured by this regular expression. Adjustments might be necessary for handling such cases.
     - This method provides a basic extraction of HTML tags with attributes and content based on typical HTML syntax.
 
-### hexColorCodes(text)
+### hexColorCodes
 
 The `hexColorCodes` method, part of the class or utility, is intended to extract hexadecimal color codes from the provided text.
 
@@ -1173,7 +1173,7 @@ The `hexColorCodes` method, part of the class or utility, is intended to extract
 
 
 
-### statisticalData(text)
+### statisticalData
 
 The `statisticalData` method, part of the class or utility, aims to identify statistical terms within the provided text.
 
@@ -1212,7 +1212,7 @@ The `statisticalData` method, part of the class or utility, aims to identify sta
 
 ---
 
-### twiiterAndFacebookPostIDs(text, platform)
+### twiiterAndFacebookPostIDs
 
 The `twiiterAndFacebookPostIDs` method, a part of the class or utility, is intended to extract post IDs from either Twitter or Facebook URLs based on the provided platform.
 
@@ -1251,7 +1251,7 @@ The `twiiterAndFacebookPostIDs` method, a part of the class or utility, is inten
     - Ensure proper platform specification ('Twitter' or 'Facebook') to extract the relevant post IDs.
 
 
-### employeeIDs(text)
+### employeeIDs
 
 The `employeeIDs` method, a part of the class or utility, is designed to extract potential employee identification codes from the provided text.
 
@@ -1290,7 +1290,7 @@ The `employeeIDs` method, a part of the class or utility, is designed to extract
 
 ---
 
-### bankAccountNumbers(text)
+### bankAccountNumbers
 
 The `bankAccountNumbers` method, a part of the class or utility, aims to extract potential bank account numbers from the provided text.
 
@@ -1327,7 +1327,7 @@ The `bankAccountNumbers` method, a part of the class or utility, aims to extract
 - **Considerations:**
     - Validate the accuracy of the regular expression pattern based on the specific structure or format of bank account numbers in the context.
 
-### apiEndpoints(text)
+### apiEndpoints
 
 The `apiEndpoints` method, part of the class or utility, aims to extract potential API endpoints from the provided text.
 
@@ -1366,7 +1366,7 @@ The `apiEndpoints` method, part of the class or utility, aims to extract potenti
 
 ---
 
-### osPaths(text)
+### osPaths
 
 The `osPaths` method, part of the class or utility, is intended to extract potential operating system paths from the provided text.
 
@@ -1404,7 +1404,7 @@ The `osPaths` method, part of the class or utility, is intended to extract poten
     - Ensure the regular expression pattern accurately captures the structure of OS paths relevant to the system or environment.
 
 
-### twitterAndFacebookPostContent(text, platform)
+### twitterAndFacebookPostContent
 
 The `twitterAndFacebookPostContent` method, part of the class or utility, is intended to extract content related to Twitter or Facebook posts based on the provided platform.
 
@@ -1444,7 +1444,7 @@ The `twitterAndFacebookPostContent` method, part of the class or utility, is int
 
 ---
 
-### softwareVersionNumbers(text)
+### softwareVersionNumbers
 
 The `softwareVersionNumbers` method, part of the class or utility, aims to extract potential software version numbers from the provided text.
 
@@ -1482,7 +1482,7 @@ The `softwareVersionNumbers` method, part of the class or utility, aims to extra
     - Validate the accuracy of the regular expression pattern based on the specific structure or format of software version numbers in the context.
 
 
-### ordinalNumbers(text)
+### ordinalNumbers
 
 The `ordinalNumbers` method, part of the class or utility, is aimed at extracting ordinal numbers from the provided text.
 
@@ -1521,7 +1521,7 @@ The `ordinalNumbers` method, part of the class or utility, is aimed at extractin
 
 ---
 
-### metaTags(text)
+### metaTags
 
 The `metaTags` method, part of the class or utility, is designed to extract HTML meta tags from the provided text.
 
@@ -1559,7 +1559,7 @@ The `metaTags` method, part of the class or utility, is designed to extract HTML
     - Ensure the regular expression accurately captures HTML meta tags based on the requirements and variations in their structure.
 
 
-### stockTickerSymbols(text)
+### stockTickerSymbols
 
 The `stockTickerSymbols` method, part of the class or utility, aims to extract potential stock ticker symbols from the provided text.
 
@@ -1598,7 +1598,7 @@ The `stockTickerSymbols` method, part of the class or utility, aims to extract p
 
 ---
 
-### hashValues(text)
+### hashValues
 
 The `hashValues` method, part of the class or utility, aims to extract potential hash values from the provided text.
 
@@ -1636,7 +1636,7 @@ The `hashValues` method, part of the class or utility, aims to extract potential
     - Validate the accuracy of the regular expression pattern based on the specific structure or format of hash values in the context.
 
 
-### chemicalCompoundNames(text)
+### chemicalCompoundNames
 
 The `chemicalCompoundNames` method, part of the class or utility, is designed to extract potential chemical compound names from the provided text.
 
@@ -1675,7 +1675,7 @@ The `chemicalCompoundNames` method, part of the class or utility, is designed to
 
 ---
 
-### mimeTypes(text)
+### mimeTypes
 
 The `mimeTypes` method, part of the class or utility, aims to extract potential MIME types from the provided text.
 
@@ -1713,7 +1713,7 @@ The `mimeTypes` method, part of the class or utility, aims to extract potential 
     - Ensure the regular expression accurately captures MIME types based on the requirements and variations in their structure.
 
 
-### httpStatusCodes(text)
+### httpStatusCodes
 
 The `httpStatusCodes` method, part of the class or utility, aims to extract potential HTTP status codes from the provided text.
 
@@ -1752,7 +1752,7 @@ The `httpStatusCodes` method, part of the class or utility, aims to extract pote
 
 ---
 
-### coordinates(text)
+### coordinates
 
 The `coordinates` method, part of the class or utility, is intended to extract potential geographical coordinates from the provided text.
 
@@ -1789,7 +1789,7 @@ The `coordinates` method, part of the class or utility, is intended to extract p
 - **Considerations:**
     - Ensure the regular expression accurately captures geographical coordinates based on the requirements and variations in their formats.
 
-### extractProgrammingKeywords(text, language)
+### extractProgrammingKeywords
 
 The `extractProgrammingKeywords` method, part of the class or utility, is designed to extract programming keywords from the provided text based on a specified programming language.
 
