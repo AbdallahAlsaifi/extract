@@ -1,6 +1,6 @@
 name: extract
 description: An all-in-one extractor 50+ functions cover common cases, from emails and phone numbers to URLs and hash.
-version: 0.0.4
+version: 0.0.3
 homepage: https://github.com/AbdallahAlsaifi/extract
 maintainer: Abdallah Alsaifi
 
