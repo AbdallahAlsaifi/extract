@@ -1,7 +1,8 @@
 name: extract
-description: The best extractor you could use
-version: 0.0.1
-homepage:
+description: An all-in-one extractor 50+ functions cover common cases, from emails and phone numbers to URLs and hash.
+version: 0.0.2
+homepage: https://github.com/AbdallahAlsaifi/extract
+maintainer: Abdallah Alsaifi
 
 environment:
   sdk: '>=3.1.5 <4.0.0'
